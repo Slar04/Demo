@@ -6,6 +6,8 @@ public class MainTest {
 		System.out.println("Hello");
 		
 		System.out.println("Autre ligne");
+		
+		System.out.println("Une autre ligne");
 	}
 	
 }
