@@ -26,9 +26,6 @@ public class Animaux {
         l.boire();
         l.crier();
         System.out.println(l.toString());
-        
-        System.out.println("modification");
-        System.out.println("modification 2");
     }
     
 }
