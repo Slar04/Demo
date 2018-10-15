@@ -26,6 +26,8 @@ public class Animaux {
         l.boire();
         l.crier();
         System.out.println(l.toString());
+        
+        System.out.println("Fin du projet");
     }
     
 }
