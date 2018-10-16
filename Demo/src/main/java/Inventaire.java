@@ -1,22 +1,24 @@
-import java.util.HashMap;
-import java.util.Map;
 
-public class Inventaire {
-	private int fruit, legumes;
-	public Map<Integer, String> inv = new HashMap<Integer,String>();
+public abstract class Inventaire {
+	private int o,p,c,t;
+	private int lim_fruits, lim_legumes;
 	
 	public Inventaire() {};
-     
-	public Inventaire(int or, int po, int tom, int conco) {
-		
-		Fruits o = new Oranges(or);
-		Fruits p = new Pomme(po);
-		Fruits t = new Tomate(tom);
-		Legumes c = new Concombre(conco);
-		
-		/*inv.put(or, "Orange");
-		  inv.put(po, "Pomme");
-		  inv.put(tom, "Tomate");
-		  inv.put(conco, "Concombre");*/
+	
+	public Inventaire(int _o,int _p,int _c,int _t) {
+		o=_o;
+		p=_p;
+		c=_c;
+		t=_t;
 	}
+	
+	public int getLimit_f(){
+		return lim_fruits;
+	}
+	
+	public int getLimit_l(){
+		return lim_legumes;
+	}
+	
+	
 }

@@ -11,7 +11,11 @@ public class Magasin {
 		
 		//orange-pomme-tomate-concombre
 		
-		Inventaire i = new Inventaire(20,30,56,70);
+		Fruits or = new Oranges(30);
+		Fruits p = new Pomme(50);
+		Fruits t = new Tomate(60);
+		Legumes c = new Concombre(70);
+		
 		
 	}
 
