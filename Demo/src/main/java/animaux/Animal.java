@@ -9,16 +9,16 @@ package animaux;
  *
  * @author Rigo
  */
-abstract class Animal {
+public abstract class Animal {
 
   protected String couleur;
   protected int poids;
 
-  protected void manger(){
+  public void manger(){
     System.out.println("Je mange de la viande.");
   }
         
-  protected void boire(){
+  public void boire(){
     System.out.println("Je bois de l'eau !");
   }
         
