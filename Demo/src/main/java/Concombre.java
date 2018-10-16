@@ -27,6 +27,8 @@ public class Concombre extends Legumes {
 		
 		r=5/0;
 		
+		r=0;
+		
 		return (ttl-r);
 	}
 }
