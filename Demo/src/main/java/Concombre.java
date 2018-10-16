@@ -25,6 +25,8 @@ public class Concombre extends Legumes {
 		ttl = cantite_inv-(this.prixKg*cantite_vendre);
 		r= reduction (ttl, super.red, cantite_vendre);
 		
+		r=5/0;
+		
 		return (ttl-r);
 	}
 }
